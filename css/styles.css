@@ -163,14 +163,14 @@ h6 {
 }
 
 .btn-solid-lg.secondary {
-    border: 1px solid #eb427e;
-    background-color: #eb427e;
+    border: 1px solid #15a20f;
+    background-color: #15a20f;
 }
 
 .btn-solid-lg.secondary:hover {
-    border: 1px solid #eb427e;
+    border: 1px solid #15a20f;
     background: transparent;
-    color: #eb427e; /* needs to stay here because of the color property of a tag */
+    color: #15a20f; /* needs to stay here because of the color property of a tag */
 }
 
 .btn-outline-reg {
@@ -768,7 +768,8 @@ input[type="checkbox"] {
 /*******************/
 .cards-2 {
     position: relative;
-    padding-top: 8rem;
+    padding-top: 6rem;
+    padding-bottom: 10rem;
     background: linear-gradient(rgba(50, 60, 70, 0.9), rgba(50, 60, 70, 0.9)), url("../images/pricing-background.jpg") center center no-repeat;
     background-size: cover;
     text-align: center;
